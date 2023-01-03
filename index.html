@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ec880f707b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Responsive personal portfolio</title>
+</head>
+<body class="light">
+
+    <input class="dark_input" type="checkbox" id="toggle">
+
+    <label class="toggle" for="toggle">
+        <i class="far fa-sun"></i>
+        <i class="far fa-moon"></i>
+        <span class="ball"></span>
+    </label>
+
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Bekzod</a>
+            </div>
+   
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header> 
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="assets/img/perfil.png" alt="">
+                    </div>
+
+                    <h1 class="home__title">Bekzod Valiev</h1>
+                    <span class="home__profession">Frontend Developer</span>
+
+                    <div class="home__social">
+                        <a href="#" class="home__social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="home__social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="home__social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="home__social-link"><i class="fab fa-behance"></i></a>
+                    </div>
+
+                    <a download="" href="" class="button home__button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <span class="section-subtitle">My intro</span>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">Hi, I'm a frontend developer, passionate about creating and developing web interfaces. I have many years of experience in this area of work, with multiple quality projects.</p>
+                    <img src="assets/img/about.png" alt="" class="about__img">
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Information</h3>
+    
+                        <div class="about__information-data">
+                            <i class="fas fa-user about__information-icon"></i>
+                            <span>Bekzod Valiev</span>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class="fas fa-phone about__information-icon"></i>
+                            <span>+99899 234 45 67</span>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class="far fa-envelope about__information-icon"></i>
+                            <span>user@gmail.com</span>
+                        </div>
+                    </div>
+    
+                    <div class="about__information">
+                        <h3 class="about__information-title">Experience and support</h3>
+    
+                        <div class="about__information-data">
+                            <i class="fas fa-medal about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">5 Years Job</span>
+                                <span class="about__information-subtitle-small">Experience</span>
+                            </div>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class="fas fa-briefcase about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">50+ Projects</span>
+                                <span class="about__information-subtitle-small">Completed</span>
+                            </div>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class="fas fa-headset about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">Support</span>
+                                <span class="about__information-subtitle-small">Online 24/7</span>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                   
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My expertise Area</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Frontend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Html/Css</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__js"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">React</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__react"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Angular</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__angular"></span>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Backend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Php</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__php"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Node js</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__node"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Firebase</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__firebase"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Python</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__python"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== EDUCATION =====-->
+        <section class="education section">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2010 - 2013</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Development</h3>
+                        <span class="education__university">Frontend</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2014 - 2017</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Development</h3>
+                        <span class="education__university">Backend</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2018 - 2020</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Design</h3>
+                        <span class="education__specialty">Ui/Ux</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <span class="section-subtitle">What I Offer</span>
+            <h2 class="section-title">My Services</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <i class="fas fa-code services__icon"></i>
+                    <h3 class="services__title">Web Design</h3>
+                    <p class="services__description">This services that I offer is of hight quality, and above all experience that I have in the labor field for many years.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fas fa-pen services__icon"></i>
+                    <h3 class="services__title">Graphic Design</h3>
+                    <p class="services__description">This services that I offer is of hight quality, and above all experience that I have in the labor field for many years.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fas fa-brush services__icon"></i>
+                    <h3 class="services__title">UI/UX</h3>
+                    <p class="services__description">This services that I offer is of hight quality, and above all experience that I have in the labor field for many years.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fas fa-server services__icon"></i>
+                    <h3 class="services__title">Backend development</h3>
+                    <p class="services__description">This services that I offer is of hight quality, and above all experience that I have in the labor field for many years.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fas fa-pencil-alt services__icon"></i>
+                    <h3 class="services__title">Content Writing</h3>
+                    <p class="services__description">This services that I offer is of hight quality, and above all experience that I have in the labor field for many years.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="fas fa-mobile services__icon"></i>
+                    <h3 class="services__title">Interface Movil</h3>
+                    <p class="services__description">This services that I offer is of hight quality, and above all experience that I have in the labor field for many years.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== PROJECT IN MIND =====-->
+        <section class="project section">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <h2 class="section-title project__title">Do you have a project in mind</h2>
+                    <p class="project__description">If you have a project that you want to carry out, do not nesitate and tell me what it is, and what services I can offer you, contact me directly here.</p>
+                    <a href="#contact" class="button button__light">Contact Me</a>
+                </div>
+
+                <img src="assets/img/projectmind.png" alt="" class="project__img">
+            </div>
+        </section>
+
+        <!--===== WORKS =====-->
+        <section class="works section" id="works">
+            <span class="section-subtitle">My portfolio</span>
+            <h2 class="section-title">Recent Works</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                   <img src="assets/img/work1.jpeg" alt="">
+                   
+                   <div class="works__data">
+                    <a href="#" class="works__link"><i class="fas fa-link"></i></a>
+                    <span class="works__title">Work 1</span>
+                   </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work2.jpeg" alt="">
+                    
+                    <div class="works__data">
+                     <a href="#" class="works__link"><i class="fas fa-link"></i></a>
+                     <span class="works__title">Work 2</span>
+                    </div>
+                 </div>
+
+                 <div class="works__img">
+                    <img src="assets/img/work3.jpeg" alt="">
+                    
+                    <div class="works__data">
+                     <a href="#" class="works__link"><i class="fas fa-link"></i></a>
+                     <span class="works__title">Work 3</span>
+                    </div>
+                 </div>
+
+                 <div class="works__img">
+                    <img src="assets/img/work4.jpeg" alt="">
+                    
+                    <div class="works__data">
+                     <a href="#" class="works__link"><i class="fas fa-link"></i></a>
+                     <span class="works__title">Work 4</span>
+                    </div>
+                 </div>
+
+                 <div class="works__img">
+                    <img src="assets/img/work5.jpeg" alt="">
+                    
+                    <div class="works__data">
+                     <a href="#" class="works__link"><i class="fas fa-link"></i></a>
+                     <span class="works__title">Work 5</span>
+                    </div>
+                 </div>
+
+                 <div class="works__img">
+                    <img src="assets/img/work6.jpeg" alt="">
+                    
+                    <div class="works__data">
+                     <a href="#" class="works__link"><i class="fas fa-link"></i></a>
+                     <span class="works__title">Work 6</span>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get IN Touch</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                    </div>
+
+                    <input type="text" placeholder="Project" class="contact__input">
+
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                    <input type="submit" value="Send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call me</h3>
+                        <span class="contact__text">+99899 234 45 67</span>
+                        <span class="contact__text">+99899 234 45 67</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">bekuser@gmail.com</span>
+                        <span class="contact__text">contactme@bek.com</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">Av. Bolivar #123</span>
+                        <span class="contact__text">Lima - Peru</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <h1 class="footer__title">Bekzod</h1>
+                <p class="footer__description">I am Bekzod and this is my personal website, consult me here.</p>
+
+                <div class="footer__social">
+                    <a href="#" class="footer__link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__link"><i class="fab fa-twitter"></i></a>
+                </div>
+
+                <p class="footer__copy">All right reversed by Bekcode - 2022</p>
+            </div>
+        </footer>
+    </main>
+    
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
